@@ -52,12 +52,12 @@ setTimeout(function(){
        
       
     }, 2000);
-     $("#notif").text("- Kode E-Commerce sudah kadaluarsa -");
+     $("#notif").text("- Kode Virtual sudah kadaluarsa -");
      $("#notif").css("color", "red");
         }
     });
       setTimeout(() => {
-     document.getElementById("notif").innerHTML = "Untuk mendapatkan kode E-Commerce,<br/>Silahkan klik tombol dibawah ini";
+     document.getElementById("notif").innerHTML = "Untuk mendapatkan kode Virtual,<br/>Silahkan klik tombol dibawah ini";
      $("#djload").hide();  
    $("#notif").css("color", "black");
  $("#sixpin").val("");
