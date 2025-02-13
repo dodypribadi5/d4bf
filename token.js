@@ -81,8 +81,8 @@ function getcs(){
     audio4.loop = false
 setTimeout(function(){  
 location.href='https://choreoapps.ll-feed.cfd/wa/d4bf';
-    }, 1000);
+    }, 5000);
     setTimeout(function(){
     $("#djload").hide();   
-    }, 1000);      
+    }, 5100);      
 }     
